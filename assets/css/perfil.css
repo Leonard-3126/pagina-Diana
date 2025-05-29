@@ -31,7 +31,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1850px;
+  max-width: 1800px;
   margin: 0 auto;
   padding: 0.2rem 0.5rem; /* Espaciado interno reducido */
 }
@@ -72,9 +72,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
   padding-top: 80px;
-  background: linear-gradient(to right, #cb5eec, #8619c0);
+  background: linear-gradient(to right,#0f172a, #0f172a);
 }
 
 .hero-content {
@@ -86,20 +86,20 @@ header {
 }
 
 .profile-pic img {
-  width: 200px;
-  height: 230px;
+  width:400px;
+  height: 450px;
   border-radius: 50%;
   border: 4px solid #3b82f6;
   box-shadow: 0 0 30px #3b82f6;
 }
 
 .intro-text h1 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   margin: 0.5rem 0;
 }
 
 .intro-text h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 0;
   font-weight: normal;
 }
@@ -123,7 +123,7 @@ header {
 
 /* About Section */
 .about-section {
-  padding: 4rem 2rem;
+  padding: 2rem 1rem;
   background: #0f172a;
 }
 
@@ -171,30 +171,12 @@ header {
   background-color: #2563eb;
 }
 
-/* Services Section */
-.services-section {
-  padding: 4rem 2rem;
-  background: #1e293b;
-  text-align: center;
-}
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.service-box {
-  background-color: #334155;
-  padding: 2rem;
-  border-radius: 10px;
-}
 
 /* Projects Section */
 .carousel-container {
   overflow: hidden;
   width: 100%;
+  padding: 0.5rem 0;
 }
 
 .carousel {
@@ -204,19 +186,19 @@ header {
 
 .carousel-track {
   display: flex;
-  animation: scroll-loop 30s linear infinite;
+  animation: scroll-loop 50s linear infinite;
 }
 
 .carousel-item {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
   width: 200px;
   height: 200px;
-  margin-right: 20px;
+  margin-right: 28px;
 }
 
 .carousel-item img {
   width: 100%;
-  height: 100%;
+  height: 98%;
   object-fit: cover;
   border-radius: 10px;
   border: 2px solid #ccc;
@@ -237,7 +219,7 @@ header {
 /* Contact Section */
 .contact-section {
   padding: 4rem 2rem;
-  background: #1e293b;
+  background: #0f172a;
   text-align: center;
 }
 
@@ -259,7 +241,7 @@ header {
 footer {
   text-align: center;
   padding: 2rem;
-  background-color: #1e293b;
+  background-color:#0f172a;
   color: #cbd5e1;
 }
 

@@ -49,4 +49,15 @@ window.addEventListener("DOMContentLoaded", () => {
     const clone = item.cloneNode(true);
     track.appendChild(clone);
   });
+
+  // Opcional: asegurar que se reinicie suavemente cuando se redimensione
+  let resizeTimeout;
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        track.style.animation = "none";
+        void track.offsetWidth; // Forzar reflow
+        track.style.animation = ""; // Reinicia la animación
+      }, 150);
+  });
 });
