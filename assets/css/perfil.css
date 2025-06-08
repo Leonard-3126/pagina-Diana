@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #0f172a;
+  background-color: #3d0066;
   color: #fff;
   scroll-behavior: smooth;
 }
@@ -12,7 +12,7 @@ body {
 
 /* Header */
 header {
-  background: #0f172a;
+  background: #3d0066;
   padding: 0.2rem 0.6rem; /* Menos padding */
   position: fixed;
   width: 100%;
@@ -74,7 +74,7 @@ header {
   justify-content: center;
   height: 70vh;
   padding-top: 80px;
-  background: linear-gradient(to right,#0f172a, #0f172a);
+  background: linear-gradient(to right,#8200be, #ea00ffc9);
 }
 
 .hero-content {
@@ -124,7 +124,7 @@ header {
 /* About Section */
 .about-section {
   padding: 2rem 1rem;
-  background: #0f172a;
+  background: #3d0066;
 }
 
 .about-section h2 {
@@ -219,7 +219,7 @@ header {
 /* Contact Section */
 .contact-section {
   padding: 4rem 2rem;
-  background: #0f172a;
+  background: #3d0066;
   text-align: center;
 }
 
@@ -241,7 +241,7 @@ header {
 footer {
   text-align: center;
   padding: 2rem;
-  background-color:#0f172a;
+  background-color:#430070;
   color: #cbd5e1;
 }
 
