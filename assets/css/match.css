@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: Arial, sans-serif;
   color: white;
   background: linear-gradient(45deg, #2f00ff, #6f0091);
 }
@@ -31,19 +31,20 @@ header {
 
 .buttons {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .discover {
   background-color: white;
   color: black;
-  padding: 0.4rem 0.3rem;
+  padding: 0.8rem 1rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
   cursor: pointer;
   text-decoration: none;
-  transition: background 0.3s ease;
+  transition: background 0.1s ease;
 }
+
 
 .discover:hover {
   background-color: #e0e0e0;
@@ -56,7 +57,7 @@ header {
   align-items: center;
   padding: 6rem 2rem 3rem;
   flex-wrap: wrap;
-  text-align: center;
+  /* text-align: center; alinea la escrita al centro*/ 
 }
 
 .intro-text {
@@ -73,6 +74,7 @@ header {
   font-size: 6rem;
   font-weight: bold;
   color: #00ffae;
+  text-align: center;
 }
 
 .intro-image img {
@@ -179,7 +181,7 @@ header {
   color: #00ffae;
   margin-top: 0.5rem;
 
-  animation: shake 2s ease-in-out;
+  animation: shake 2s ease-in-out infinite;
 }
 
 

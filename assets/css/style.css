@@ -33,18 +33,18 @@ header {
 
 .buttons {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .discover {
   background-color: white;
   color: black;
-  padding: 0.4rem 0.3rem;
+  padding: 0.8rem 1rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
   cursor: pointer;
   text-decoration: none;
-  transition: background 0.3s ease;
+  transition: background 0.1s ease;
 }
 
 .discover:hover {
@@ -82,16 +82,17 @@ header {
 
 .hero-text .highlight {
   color: #ff385c;
+  font-size: 2rem;
 }
 
 .match {
   position: absolute;
-  top: 177.5%;  /* Ajusta este valor para colocarlo justo sobre el corazón */
-  left: 41%;
+  top: 246.5%;  /* Ajusta este valor para colocarlo justo sobre el corazón */
+  left: 42%;
   transform: 50%;
   
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background:linear-gradient(45deg, #2f00ff, #6f0091);
   color: white;
