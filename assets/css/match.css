@@ -7,7 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   color: white;
-  background: linear-gradient(45deg, #2f00ff, #6f0091);
+  background: linear-gradient(45deg, #2f0055, #c900c9);
 }
 
 /* === HEADER === */
@@ -57,7 +57,7 @@ header {
   align-items: center;
   padding: 6rem 2rem 3rem;
   flex-wrap: wrap;
-  /* text-align: center; alinea la escrita al centro*/ 
+  text-align: center; 
 }
 
 .intro-text {

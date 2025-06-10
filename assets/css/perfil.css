@@ -105,7 +105,7 @@ header {
 }
 
 .typed-text {
-  color: #3b82f6;
+  color: #5a0b8f;
   font-weight: bold;
 }
 
@@ -138,9 +138,9 @@ header {
 }
 
 .about-section p {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0.5rem auto;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .social-icons {
@@ -157,7 +157,7 @@ header {
 
 .cv-button {
   display: inline-block;
-  background-color: #3b82f6;
+  background-color: #f59402;
   padding: 0.6rem 1.2rem;
   border: none;
   color: white;
@@ -168,7 +168,7 @@ header {
 }
 
 .cv-button:hover {
-  background-color: #2563eb;
+  background-color: #e208ff;
 }
 
 
