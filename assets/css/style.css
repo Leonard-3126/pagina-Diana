@@ -87,8 +87,8 @@ header {
 
 .match {
   position: absolute;
-  top: 249.9%;  /* Ajusta este valor para colocarlo justo sobre el corazón */
-  left: 40.8%;
+  top: 247.6%;  /* Ajusta este valor para colocarlo justo sobre el corazón */
+  left: 40.6%;
   transform: 50%;
   
   width: 112px;
