@@ -87,12 +87,12 @@ header {
 
 .match {
   position: absolute;
-  top: 248.5%;  /* Ajusta este valor para colocarlo justo sobre el corazón */
-  left: 42%;
+  top: 247.6%;  /* Ajusta este valor para colocarlo justo sobre el corazón */
+  left: 40.6%;
   transform: 50%;
   
-  width: 100px;
-  height: 100px;
+  width: 112px;
+  height: 112px;
   border-radius: 50%;
   background:linear-gradient(45deg, #2f00ff, #6f0091);
   color: white;
